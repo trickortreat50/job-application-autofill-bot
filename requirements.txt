@@ -1,0 +1,7 @@
+selenium==4.15.2
+webdriver-manager==4.0.1
+tkinter-tooltip==2.0.0
+pyperclip==1.8.2
+keyboard==0.13.5
+requests>=2.25.0
+packaging>=20.0 

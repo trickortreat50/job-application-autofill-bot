@@ -1,0 +1,13 @@
+{
+  "auto_check_updates": true,
+  "check_interval_hours": 24,
+  "auto_install_dependencies": true,
+  "auto_install_bot_updates": false,
+  "notify_on_updates": true,
+  "backup_before_update": true,
+  "excluded_packages": [],
+  "update_channels": [
+    "conda-forge",
+    "defaults"
+  ]
+}

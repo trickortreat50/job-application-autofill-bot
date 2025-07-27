@@ -7,7 +7,7 @@ import sys
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 from form_filler import JobApplicationFiller
-import config
+import config_manager as config
 import threading
 import time
 

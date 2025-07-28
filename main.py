@@ -256,8 +256,8 @@ You must review and submit the form yourself.
         
     def open_config(self):
         """Open configuration window."""
-        # Go directly to interactive configuration manager
-        self.launch_config_manager()
+        # Go directly to GUI configuration window
+        self.launch_gui_config()
     
     def launch_config_manager(self):
         """Launch the interactive configuration manager."""

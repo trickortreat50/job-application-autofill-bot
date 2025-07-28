@@ -256,25 +256,8 @@ You must review and submit the form yourself.
         
     def open_config(self):
         """Open configuration window."""
-        # Show options for configuration
-        import tkinter as tk
-        from tkinter import messagebox
-        
-        config_choice = messagebox.askyesnocancel(
-            "Configuration Options",
-            "Choose configuration method:\n\n"
-            "Yes = Interactive Configuration Manager (Command Line)\n"
-            "No = GUI Configuration Window\n"
-            "Cancel = Cancel"
-        )
-        
-        if config_choice is True:
-            # Launch interactive configuration manager
-            self.launch_config_manager()
-        elif config_choice is False:
-            # Open GUI configuration window
-            self.launch_gui_config()
-        # If Cancel, do nothing
+        # Go directly to interactive configuration manager
+        self.launch_config_manager()
     
     def launch_config_manager(self):
         """Launch the interactive configuration manager."""
